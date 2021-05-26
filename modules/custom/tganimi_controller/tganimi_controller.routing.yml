@@ -1,0 +1,7 @@
+tganimi_controller.todo_list:
+  path: '/tganimi/todo'
+  defaults:
+    _controller: '\Drupal\tganimi_controller\Controller\ToDoController::index'
+    _title: 'To Do List'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * hook_theme()
+ */ 
+function tganimi_controller_theme($existing, $type, $theme, $path) {
+
+    return [
+        'todo_list' => [
+            'variables' => ['items' => [], 'title' => '']
+        ]
+    ];
+}
